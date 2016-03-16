@@ -1,0 +1,9 @@
+{
+	"csv_per_file_setting":
+	[
+		{
+			"file": "/Users/julian/Projects/BidOptimizer/CsvAndLogs/keywords_input.csv",
+			"use_header": true
+		}
+	]
+}
