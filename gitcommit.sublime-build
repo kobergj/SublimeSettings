@@ -1,4 +1,0 @@
-{
-    "cmd": ["sh /Users/julian/Documents/Scripts/git_save_commit.sh \"$file_path\""],
-    "shell": true
-}

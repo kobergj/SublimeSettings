@@ -1,4 +1,0 @@
-{
-    "cmd": ["sh /Users/julian/Documents/Scripts/iTerm_r_build.sh \"$file\""],
-    "shell": true
-}
