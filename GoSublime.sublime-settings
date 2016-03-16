@@ -1,0 +1,12 @@
+{//"shell": "/usr/bin/sh",
+"env": {"GOPATH": "$HOME/Projects/GoCommonLibrary/Jobs/GO/Libs", "PATH":"$PATH:$GOPATH"},
+"on_save": [{
+    "cmd": "gs9o_open", "args": {
+    "run": ["sh", 
+        "go build . errors && go test -i && go test && go vet"], 
+    "focus_view": false
+}}],
+"autocomplete_closures": true,
+"complete_builtins": true}
+
+//   && go test -bench=.
