@@ -1,0 +1,6 @@
+*
+
+!*.sublime-settings
+!*.sublime-build
+!*.sublime-keymap
+!*.sublime-theme
