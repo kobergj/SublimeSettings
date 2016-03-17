@@ -4,3 +4,4 @@
 !*.sublime-build
 !*.sublime-keymap
 !*.sublime-theme
+!*.tmTheme
