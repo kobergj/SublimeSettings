@@ -10,16 +10,24 @@
 		"Anaconda",
 		"BracketHighlighter",
 		"CSV",
+		"Dockerfile Syntax Highlighting",
+		"Git",
+		"GitGutter",
 		"GoSublime",
 		"LogView",
 		"MarkAndMove",
+		"Markdown Preview",
 		"Package Control",
 		"R-Box",
+		"Random Everything",
 		"SendTextPlus",
 		"SideBarEnhancements",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-lintr",
+		"SublimeLinter-contrib-sqlint",
 		"SublimeLinter-pyflakes",
-		"SyncedSidebarBg"
+		"SyncedSidebarBg",
+		"Trimmer"
 	]
 }

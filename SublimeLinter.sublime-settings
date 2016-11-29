@@ -21,6 +21,12 @@
 				"excludes":
 				[
 				],
+				"ignore_match":
+				[
+					"Commented code should be removed",
+					"lines should not be more than 80 characters",
+					"Variable and function names should be all lowercase"
+				],
 				"linters": "default_linters"
 			},
 			"pyflakes":
