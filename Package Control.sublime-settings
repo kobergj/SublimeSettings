@@ -28,6 +28,7 @@
 		"SublimeLinter-contrib-sqlint",
 		"SublimeLinter-pyflakes",
 		"SyncedSidebarBg",
+		"Terminal",
 		"Trimmer"
 	]
 }

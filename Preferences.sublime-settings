@@ -16,5 +16,7 @@
 	"open_files_in_new_window": false,
 	"show_panel_on_build": true,
 	"tab_size": 4,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": false,
+    "ensure_newline_at_eof_on_save": true,
 }

@@ -124,6 +124,11 @@
 		"go test -tags \"integration\" -run /Postgre",
 		"go test -tags \"integration\" -run Postgre/Postgre"
 	],
+	"9o.hist./Users/julian/Projects/Go-Projects/DWH/DWH/OrderParcelEvents":
+	[
+		"go get \"github.com/goadesign/goa\"",
+		"go get \"github.com/pkg/errors\""
+	],
 	"9o.hist./Users/julian/Projects/Go-Projects/EcbExchangeRateLoader":
 	[
 		"go get \"github.com/alexbrainman/odbc\""
