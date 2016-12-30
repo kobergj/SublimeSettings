@@ -1,5 +1,5 @@
 {//"shell": "/usr/bin/sh",
-"env": {"GOPATH": "$HOME/Projects/GoPacksAndLibs/", "PATH":"$PATH:$GOPATH"},
+"env": {"GOPATH": "$HOME/Projects/GoPacksAndLibs/:$HOME/Projects/Go-Projects", "PATH":"$PATH:$GOPATH"},
 "on_save": [{
     "cmd": "gs9o_open", "args": {
     "run": ["sh", 

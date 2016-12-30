@@ -29,15 +29,28 @@
 	],
 	"9o.hist./Users/julian/Projects/Go-Libs":
 	[
+		"go generate ./...",
+		"go generate ./..",
 		"go generate",
-		"go generate ./..."
+		"cd Common",
+		"cd DataSource",
+		"go test ./..."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Common":
+	[
+		"go test ./...",
+		"cd .."
 	],
 	"9o.hist./Users/julian/Projects/Go-Libs/DataSource":
 	[
+		"cd Implementations",
+		"go test ./...",
 		"cd .."
 	],
 	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations":
 	[
+		"cd Sql",
+		"go test ./...",
 		"cd .."
 	],
 	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql":
@@ -46,6 +59,9 @@
 		"go get \"github.com/windelnde/Go-Projects/CodeGenerator\"",
 		"go generate",
 		"cd .",
+		"go test -v ./...",
+		"go build ./...",
+		"go test ./...",
 		"cd .."
 	],
 	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql/Builder":
@@ -53,7 +69,29 @@
 		"go get github.com/lib/pq",
 		"go version",
 		"go get \"github.com/hashicorp/consul/api\"",
-		"go get \"github.com/hashicorp/vault/api\""
+		"go get \"github.com/hashicorp/vault/api\"",
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql/Dialect":
+	[
+		"git diff",
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql/Dialect/Base":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql/Dialect/Exasol":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql/Dialect/Postgres":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql/Query":
+	[
+		"cd .."
 	],
 	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql/ResultProcessors":
 	[
@@ -67,6 +105,18 @@
 		"go test '-bench .'",
 		"go test '-bench=.'",
 		"go test -bench=."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql/SqlRows":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql/SqlRows/ResultProcessors":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql/SqlRows/ResultProcessors/Basic":
+	[
+		"cd .."
 	],
 	"9o.hist./Users/julian/Projects/Go-Libs/DataSource/Implementations/Sql/SqlToModelMapping":
 	[
@@ -122,7 +172,72 @@
 		"GoSublime r16.07.09-1 9o: type `help` for help and command documentation",
 		"cls",
 		"go test -tags \"integration\" -run /Postgre",
-		"go test -tags \"integration\" -run Postgre/Postgre"
+		"go test -tags \"integration\" -run Postgre/Postgre",
+		"go test -tags \"integration\" run Postgre -pgConn=\"dbname=UnifiedStaging user=staging_loader password=ZEKRYBmJYrY9eLhSuN28 host=vm12.test.bi.windeln-it.de\"",
+		"go test -tags \"integration\" -run Postgre -pgConn=\"dbname=UnifiedStaging user=staging_loader password=ZEKRYBmJYrY9eLhSuN28 host=vm12.test.bi.windeln-it.de\"",
+		"go test -tags \"integration\" -run PostgreStoreOrReplace -pgConn=\"dbname=UnifiedStaging user=staging_loader password=ZEKRYBmJYrY9eLhSuN28 host=vm12.test.bi.windeln-it.de\"",
+		"go build",
+		"go build ."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Models":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Models/Business":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Models/Business/Staging":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Models/Business/Staging/Mappers":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Repository":
+	[
+		"go generate",
+		"go test ./...",
+		"cd BiFacade",
+		"cd DWH",
+		"cd Business",
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Repository/BaseRepository":
+	[
+		"go generate",
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Repository/BiFacade":
+	[
+		"go test ./...",
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Repository/Business":
+	[
+		"go test ./..."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Repository/DWH":
+	[
+		"go test ./...",
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Repository/DWH/Staging":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Repository/DWH/Staging/Currency":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Repository/ECB":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Repository/ECB/CurrencyExchangeRate":
+	[
+		"cd .."
 	],
 	"9o.hist./Users/julian/Projects/Go-Projects/DWH/DWH/OrderParcelEvents":
 	[
@@ -139,6 +254,25 @@
 		"go run *.go",
 		"ls",
 		"go run postgresTest.go"
+	],
+	"9o.hist./Users/julian/Projects/Go-Projects/Webservices":
+	[
+		"cd OrderIdWebservice"
+	],
+	"9o.hist./Users/julian/Projects/Go-Projects/Webservices/OrderIdWebservice":
+	[
+		"goagen bootstrap -d design",
+		"goagen bootstrap -d ~/Projects/Go-Projects/Webservices/OrderIdWebservice/Design",
+		"goagen bootstrap -d windelnde/Go-Projects/Webservices/OrderIdWebservice/Design",
+		"cd ..",
+		"goagen bootstrap -d github.com/windelnde/Go-Projects/Webservices/OrderIdWebservice/Design",
+		"go get \"github.com/ivan-kostko/GoLibs/WorkerPool\"",
+		"go build ."
+	],
+	"9o.hist./Users/julian/Projects/Go-Projects/Webservices/OrderIdWebservice/Design":
+	[
+		"cd .",
+		"cd .."
 	],
 	"9o.hist./Users/julian/Projects/GoCommonLibrary/Jobs/GO/Libs/src":
 	[
@@ -187,9 +321,32 @@
 		"cd odbc",
 		"go run goODBCtest.go"
 	],
+	"9o.hist./Users/julian/Projects/GoPacksAndLibs/src/GoaTest":
+	[
+		"./GoaTest",
+		"goagen bootstrap -d GoaTest/design",
+		"go build -o GoaTest"
+	],
+	"9o.hist./Users/julian/Projects/GoPacksAndLibs/src/GoaTest/design":
+	[
+		"goagen bootstrap -d cellar/design",
+		"goagen bootstrap -d GoaTest/design",
+		"cd .."
+	],
 	"9o.hist./Users/julian/Projects/GoPacksAndLibs/src/odbc":
 	[
 		"go install"
+	],
+	"9o.hist./Users/julian/Projects/GoaTests":
+	[
+		"go get -u github.com/goadesign/goa/...",
+		"goagen bootstrap -d GoaTest/design",
+		"cd ~/Projects/GoPacksAndLibs/src/GoSublime",
+		"cd ~/Projects/GoPacksAndLibs/src/GoaTest"
+	],
+	"9o.hist./Users/julian/Projects/Tests":
+	[
+		"go install github.com/windelnde/Go-Projects/CodeGenerator"
 	],
 	"ann": "a16.07.09-1",
 	"install_version": "r16.07.09-1",

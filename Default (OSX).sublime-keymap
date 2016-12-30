@@ -15,12 +15,12 @@
 
 // Experimental
     { "keys": ["super+y"], "command": "exec", "args": { 
-                    "cmd": ["sh /Users/julian/Documents/Scripts/git_save_commit.sh \"$file_path\""],
+                    "shell_cmd": "nosetests",
                     "shell": true } 
                 },
 
-// Save all should overwrite save
-    { "keys": ["super+s"], "command": "save_all" },
+    // Save all should overwrite save
+    //{ "keys": ["super+s"], "command": "save_all" },
 
 
 ]
