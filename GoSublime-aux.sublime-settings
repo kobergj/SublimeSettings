@@ -195,6 +195,12 @@
 	[
 		"cd .."
 	],
+	"9o.hist./Users/julian/Projects/Go-Libs/Models/DWH":
+	[
+		"go get github.com/micro/micro",
+		"go run examples/greeter/server/main.go",
+		"cd /Users/julian/Projects/GoPacksAndLibs/src/github.com/micro/micro"
+	],
 	"9o.hist./Users/julian/Projects/Go-Libs/Repository":
 	[
 		"go generate",
@@ -258,6 +264,30 @@
 	"9o.hist./Users/julian/Projects/Go-Projects/Webservices":
 	[
 		"cd OrderIdWebservice"
+	],
+	"9o.hist./Users/julian/Projects/Go-Projects/Webservices/DWH/Currency":
+	[
+		"goagen bootstrap -d Design/",
+		"goagen bootstrap -d github.com/windeln.de/Go-Projects/Webservices/DWH/Currency/Design/",
+		"goagen bootstrap -d github.com/windelnde/Go-Projects/Webservices/DWH/Currency/Design/",
+		"goagen bootstrap -d github.com/windelnde/Go-Projects/Webservices/DWH/Currency/Design",
+		"go build . errors",
+		"go test -i",
+		"go test",
+		"go vet",
+		"go generate",
+		"cd Definition",
+		"go build ."
+	],
+	"9o.hist./Users/julian/Projects/Go-Projects/Webservices/DWH/Currency/Definition":
+	[
+		"protoc --go_out=plugins=micro:. hello.proto",
+		"protoc --go_out=plugins=micro:. currency.proto",
+		"protoc --go_out=plugins=micro:. currency_dwh.proto"
+	],
+	"9o.hist./Users/julian/Projects/Go-Projects/Webservices/DWH/Currency/Design":
+	[
+		"cd .."
 	],
 	"9o.hist./Users/julian/Projects/Go-Projects/Webservices/OrderIdWebservice":
 	[
@@ -333,6 +363,14 @@
 		"goagen bootstrap -d GoaTest/design",
 		"cd .."
 	],
+	"9o.hist./Users/julian/Projects/GoPacksAndLibs/src/github.com/micro/micro":
+	[
+		"go run examples/greeter/server/main.go",
+		"micro get service go.micro.srv.greeter",
+		"micro query go.micro.srv.greeter Say.Hello '{\"name\": \"John\"}'",
+		"micro query go.micro.srv.greeter Say.Hello '{\"name\": \"Ваня\"}'",
+		"micro list services"
+	],
 	"9o.hist./Users/julian/Projects/GoPacksAndLibs/src/odbc":
 	[
 		"go install"
@@ -346,7 +384,65 @@
 	],
 	"9o.hist./Users/julian/Projects/Tests":
 	[
-		"go install github.com/windelnde/Go-Projects/CodeGenerator"
+		"go install github.com/windelnde/Go-Projects/CodeGenerator",
+		"go get -u github.com/golang/protobuf/{proto,protoc-gen-go}",
+		"go run microtest.go",
+		"protoc --go_out=. hello.proto",
+		"go get github.com/micro/protobuf",
+		"ls /Users/julian/Projects/GoPacksAndLibs/src/github.com/micro/protobuf Áh",
+		"GoSublime r16.07.09-1 9o: type `help` for help and command documentation\n\n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 173.302599ms ]\n  # _/Users/julian/Projects/Tests\n  ./microtest.go:5: syntax error: non-declaration statement outside function body\n  \n  exit status 2\n[ ~/Projects/Tests/ ] # \n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 836.853223ms ]\n  ?     _/Users/julian/Projects/Tests [no test files]\n  ?     _/Users/julian/Projects/Tests [no test files]\n[ ~/Projects/Tests/ ] # \n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 834.88286ms ]\n  ?     _/Users/julian/Projects/Tests [no test files]\n  ?     _/Users/julian/Projects/Tests [no test files]\n[ ~/Projects/Tests/ ] # \n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 866.745818ms ]\n  ?     _/Users/julian/Projects/Tests [no test files]\n  ?     _/Users/julian/Projects/Tests [no test files]\n[ `protoc --go_out=. hello.proto` | done: 16.86895ms ]\n  /bin/bash: protoc: command not found\n  \n  exit status 127\n[ `go get github.com/micro/protobuf` | done: 6.647797695s ]\n  package github.com/micro/protobuf: no buildable Go source files in /Users/julian/Projects/GoPacksAndLibs/src/github.com/micro/protobuf\n  \n  exit status 1\n[ `go get -u github.com/golang/protobuf/{proto,protoc-gen-go}` | done: 36.158332ms ]\n  package github.com/golang/protobuf/{proto,protoc-gen-go}: invalid github.com/ import path \"github.com/golang/protobuf/{proto,protoc-gen-go}\"\n  \n  exit status 1\n[ `go get -u github.com/golang/protobuf/proto` | done: 1.032667814s ]\n[ `go get -u github.com/golang/protobuf/protoc-gen-go` | done: 2.314187536s ]\n[ `protoc --go_out=plugins=micro:. hello.proto` | done: 17.550571ms ]\n  /bin/bash: protoc: command not found\n  \n  exit status 127\n[ `go get github.com/micro/protobuf` | done: 40.619675ms ]\n  can't load package: package github.com/micro/protobuf: no buildable Go source files in /Users/julian/Projects/GoPacksAndLibs/src/github.com/micro/protobuf\n  \n  exit status 1\n[ `go get github.com/micro/protobuf` | done: 203.406322ms ]\n  can't load package: package github.com/micro/protobuf: no buildable Go source files in /Users/julian/Projects/GoPacksAndLibs/src/github.com/micro/protobuf\n  \n  exit status 1\n[ `protoc --go_out=plugins=micro:. hello.proto` | done: 33.975466ms ]\n[ `go run microtest.go` | done: 290.983029ms ]\n  go run: cannot run non-main package\n  \n  exit status 1\n[ `go get github.com/micro/protobuf` | done: 36.553648ms ]\n  can't load package: package github.com/micro/protobuf: no buildable Go source files in /Users/julian/Projects/GoPacksAndLibs/src/github.com/micro/protobuf\n  \n  exit status 1\n[ `protoc --go_out=plugins=micro:. hello.proto` | done: 32.033235ms ]\n[ ~/Projects/Tests/ ] # \n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 74.742762ms ]\n  can't load package: package .: found packages MicroTest (hello.pb.go) and microtest (microtest.go) in /Users/julian/Projects/Tests\n  \n  exit status 1\n[ `protoc --go_out=. hello.proto` | done: 30.483572ms ]\n[ `protoc --go_out=. hello.proto` | done: 32.912992ms ]\n[ `protoc --go_out=plugins=micro:. hello.proto` | done: 29.102175ms ]\n[ `go get github.com/micro/protobuf` | done: 36.175446ms ]\n  can't load package: package github.com/micro/protobuf: no buildable Go source files in /Users/julian/Projects/GoPacksAndLibs/src/github.com/micro/protobuf\n  \n  exit status 1\n[ `ls /Users/julian/Projects/GoPacksAndLibs/src/github.com/micro/protobuf Áh` | done: 18.153083ms ]\n  /Users/julian/Projects/GoPacksAndLibs/src/github.com/micro/protobuf:\n  AUTHORS\n  CONTRIBUTORS\n  LICENSE\n  Make.protobuf\n  Makefile\n  README.md\n  _conformance\n  descriptor\n  jsonpb\n  proto\n  protoc-gen-go\n  ptypes\n  \n  ls: Áh: No such file or directory\n  \n  exit status 1\n[ ~/Projects/Tests/ ] #",
+		"GoSublime r16.07.09-1 9o: type `help` for help and command documentation",
+		"go get -u github.com/golang/protobuf/proto",
+		"go get -u github.com/golang/protobuf/protoc-gen-go",
+		"go get github.com/micro/protobuf/proto",
+		"go get github.com/micro/protobuf/protoc-gen-go",
+		"protoc --go_out=plugins=micro:. hello.proto",
+		"go run main.go",
+		"micro list services",
+		"micro query go.micro.srv.greeter Say.Hello '{\"name\": \"John\"}'",
+		"cd status",
+		"cd stuff",
+		"go build .",
+		"micro query MicroTest Swear.Goodbye '{\"name\": \"Ваня\"}'",
+		"micro query MicroTest Swear.Hello '{\"name\": \"Ваня\"}'",
+		"micro query MicroTest Swear.Goodbye '{\"name\": \"Ванo\"}'",
+		"go run requester.go",
+		"cd MicroPresentation"
+	],
+	"9o.hist./Users/julian/Projects/Tests/MicroPresentation":
+	[
+		"protoc -I$GOPATH/src --go_out=plugins=micro:$GOPATH/src ~/Projects/Tests/MicroPresentation/currency.proto",
+		"protoc -I~/Projects/Tests/MicroPresentation/ --go_out=plugins=micro:$GOPATH/src ~/Projects/Tests/MicroPresentation/currency.proto",
+		"protoc -I ~/Projects/Tests/MicroPresentation/ --go_out=plugins=micro:$GOPATH/src ~/Projects/Tests/MicroPresentation/currency.proto",
+		"protoc -I ~/Projects/Tests/MicroPresentation/ --go_out=plugins=micro:/Users/julian/Projects/GoPacksAndLibs/src ~/Projects/Tests/MicroPresentation/currency.proto",
+		"protoc -I ~/Projects/Tests/MicroPresentation/ --go_out=plugins=micro:~/Projects/Tests/MicroPresentation/ ~/Projects/Tests/MicroPresentation/currency.proto",
+		"protoc -I ~/Projects/Tests/MicroPresentation/ --go_out=plugins=micro: ~/Projects/Tests/MicroPresentation/ ~/Projects/Tests/MicroPresentation/currency.proto",
+		"protoc -I ~/Projects/Tests/MicroPresentation/ --go_out=plugins=micro:/Users/julian/Projects/Tests/MicroPresentation ~/Projects/Tests/MicroPresentation/currency.proto",
+		"go build .",
+		"go run .",
+		"GoSublime r16.07.09-1 9o: type `help` for help and command documentation\n\n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 243.769795ms ]\n  process.go:9:2: open /Users/julian/Projects/Tests/MicroPresentation/MicroPresentation/Lib: no such file or directory\n  \n  exit status 1\n[ ~/Projects/Tests/MicroPresentation/Server/ ] # \n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 284.204683ms ]\n  # _/Users/julian/Projects/Tests/MicroPresentation/Server\n  ./process.go:33: nil is not a type\n  \n  exit status 2\n[ ~/Projects/Tests/MicroPresentation/Server/ ] # \n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 3.288460435s ]\n  ?     _/Users/julian/Projects/Tests/MicroPresentation/Server  [no test files]\n  ?     _/Users/julian/Projects/Tests/MicroPresentation/Server  [no test files]\n[ `go build .` | done: 905.526218ms ]\n[ ~/Projects/Tests/MicroPresentation/Server/ ] # \n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 273.817156ms ]\n  # _/Users/julian/Projects/Tests/MicroPresentation/Server\n  ./process.go:21: s.repo.GetAllChangedSince undefined (type *\"github.com/windelnde/Go-Libs/Repository/DWH/Staging/Currency\".CurrencyRepository has no field or method GetAllChangedSince)\n  ./process.go:24: undefined: New\n  ./process.go:24: type error is not an expression\n  \n  exit status 2\n[ ~/Projects/Tests/MicroPresentation/Server/ ] # \n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 280.116708ms ]\n  # _/Users/julian/Projects/Tests/MicroPresentation/Server\n  ./process.go:21: s.repo.GetAllChangedSince undefined (type *\"github.com/windelnde/Go-Libs/Repository/DWH/Staging/Currency\".CurrencyRepository has no field or method GetAllChangedSince)\n  ./process.go:24: cannot use new(error) (type *error) as type error in return argument:\n    *error is pointer to interface, not interface\n  \n  exit status 2\n[ ~/Projects/Tests/MicroPresentation/Server/ ] # \n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 283.368212ms ]\n  # _/Users/julian/Projects/Tests/MicroPresentation/Server\n  ./process.go:21: s.repo.GetAllChangedSince undefined (type *\"github.com/windelnde/Go-Libs/Repository/DWH/Staging/Currency\".CurrencyRepository has no field or method GetAllChangedSince)\n  \n  exit status 2\n[ ~/Projects/Tests/MicroPresentation/Server/ ] # \n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 303.694335ms ]\n  # _/Users/julian/Projects/Tests/MicroPresentation/Server\n  ./process.go:21: s.repo.GetAllChangedSince undefined (type *\"github.com/windelnde/Go-Libs/Repository/DWH/Staging/Currency\".CurrencyRepository has no field or method GetAllChangedSince)\n  \n  exit status 2\n[ ~/Projects/Tests/MicroPresentation/Server/ ] # \n[ `sh go build . errors && go test -i && go test && go test -bench=. && go vet && go generate` | done: 310.602776ms ]\n  # _/Users/julian/Projects/Tests/MicroPresentation/Server\n  ./process.go:21: cannot use req.Date (type string) as type time.Time in argument to s.repo.GetAllChangedSince\n  \n  exit status 2\n[ `cd Lib` | done ]\n[ ~/Projects/Tests/MicroPresentation/Server/ ] # \n[ `cd ..` | done ]\n[ ~/Projects/Tests/MicroPresentation/Server/Lib/ ] # \n[ `cd ..` | done ]\n[ ~/Projects/Tests/MicroPresentation/Server/ ] # \n[ ~/Projects/Tests/MicroPresentation/ ] # protoc -I ~/Projects/Tests/MicroPresentation/ --go_out=plugins=micro:/Users/julian/Projects/Tests/MicroPresentation ~/Projects/Tests/MicroPresentation/currency.proto",
+		"cd Server/Lib",
+		"go run process.go",
+		"go run Requester.go"
+	],
+	"9o.hist./Users/julian/Projects/Tests/MicroPresentation/Server":
+	[
+		"cd Lib",
+		"cd ..",
+		"go build ."
+	],
+	"9o.hist./Users/julian/Projects/Tests/MicroPresentation/Server/Lib":
+	[
+		"cd ..",
+		"protoc -I ~/Projects/Tests/MicroPresentation/Server/Lib/ --go_out=plugins=micro:/Users/julian/Projects/Tests/MicroPresentation/Server/Lib/ ~/Projects/Tests/MicroPresentation/Server/Lib/currency.proto"
+	],
+	"9o.hist./Users/julian/Projects/Tests/server":
+	[
+		"cd .."
+	],
+	"9o.hist./Users/julian/Projects/Tests/stuff":
+	[
+		"protoc --go_out=plugins=micro:. hello.proto"
 	],
 	"ann": "a16.07.09-1",
 	"install_version": "r16.07.09-1",
