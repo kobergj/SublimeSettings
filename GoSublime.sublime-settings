@@ -1,12 +1,14 @@
 {//"shell": "/usr/bin/sh",
-"env": {"GOPATH": "$HOME/Projects/GoPacksAndLibs/:$HOME/Projects/Go-Projects", "PATH":"$PATH:$GOPATH"},
+"env": {"GOPATH": "$HOME/server", "PATH":"$PATH:$GOPATH"},
 "on_save": [{
     "cmd": "gs9o_open", "args": {
-    "run": ["sh", 
-        "go build . errors && go test -i && go test && go test -bench=. && go vet && go generate"], 
+    "run": ["sh",
+        "go test -i && go vet && go test -c -o '/Users/jkoberg/TestBinaries/lastsave.test'"], //   && go build . &&  go test -bench=.  && go generate
     "focus_view": false
 }}],
 "autocomplete_closures": true,
-"complete_builtins": true}
+"complete_builtins": true,
+"fmt_cmd": ["goimports"]
+}
 
 //   && go test -bench=.

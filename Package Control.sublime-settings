@@ -13,15 +13,20 @@
 		"Dockerfile Syntax Highlighting",
 		"Git",
 		"GitGutter",
+		"GoGuru",
+		"GoImports",
 		"GoSublime",
 		"LogView",
 		"MarkAndMove",
 		"Markdown Preview",
 		"Package Control",
+		"PlainTasks",
+		"Pretty JSON",
 		"Protocol Buffer Syntax",
+		"Quick File Open",
 		"R-Box",
 		"Random Everything",
-		"SendTextPlus",
+		"SendCode",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
@@ -29,7 +34,6 @@
 		"SublimeLinter-contrib-sqlint",
 		"SublimeLinter-pyflakes",
 		"SyncedSidebarBg",
-		"Terminal",
-		"Trimmer"
+		"Terminal"
 	]
 }

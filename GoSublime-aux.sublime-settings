@@ -1,4 +1,40 @@
 {
+	"9o.hist./Users/jkoberg/Test":
+	[
+		"go run .",
+		"go run simplegotest.go",
+		"echo $GOPATH",
+		"echo $GOROOT"
+	],
+	"9o.hist./Users/jkoberg/server":
+	[
+		"source project",
+		"scripts/configure-etcd.sh",
+		"sh scripts/configure-etcd.sh"
+	],
+	"9o.hist./Users/jkoberg/server/src/brainloop/history/server":
+	[
+		"go test ."
+	],
+	"9o.hist./Users/jkoberg/server/src/brainloop/organization/policies":
+	[
+		"go get -u golang.org/x/tools/cmd/goimports",
+		"go get golang.org/x/tools/cmd/goimports",
+		"go guru",
+		"pwd",
+		"guru"
+	],
+	"9o.hist./Users/jkoberg/server/src/brainloop/organization/server":
+	[
+		"go get -u golang.org/x/tools/cmd/guru"
+	],
+	"9o.hist./Users/jkoberg/server/src/brainloop/util/couchbasehelper/repair":
+	[
+		"go test",
+		"cd ˜/server",
+		"go test .",
+		"cd ~/server"
+	],
 	"9o.hist./Users/julian/Documents/GoLang":
 	[
 		"go build go test"
@@ -444,7 +480,7 @@
 	[
 		"protoc --go_out=plugins=micro:. hello.proto"
 	],
-	"ann": "a16.07.09-1",
-	"install_version": "r16.07.09-1",
-	"version": "r16.07.09-1"
+	"ann": "a17.03.05-1",
+	"install_version": "r17.03.05-1",
+	"version": "r17.03.05-1"
 }

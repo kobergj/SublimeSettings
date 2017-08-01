@@ -1,7 +1,7 @@
 {
 	"user":
 	{
-		"debug": true,
+		"debug": false,
 		"delay": 0.25,
 		"error_color": "D02000",
 		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
@@ -30,6 +30,16 @@
 				"linters": "default_linters"
 			},
 			"pyflakes":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"sqlint":
 			{
 				"@disable": false,
 				"args":
@@ -84,6 +94,12 @@
 			"pythonimproved": "python",
 			"r extended": "r"
 		},
+		"tooltip_fontsize": "1rem",
+		"tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
+		"tooltip_theme_excludes":
+		[
+		],
+		"tooltips": false,
 		"warning_color": "DDB700",
 		"wrap_find": true
 	}
