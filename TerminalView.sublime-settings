@@ -1,0 +1,11 @@
+{
+  // Amount of character margin on the right-hand side of the terminal view.
+  // Tweak this if you want to avoid the horizontal scrollbar showing in the
+  // view. Defaults to a margin of 3 characters as this avoid the horizontal
+  // scrollbar in the default theme.
+  "terminal_view_right_margin": 3,
+
+  // Same as above but applies to the bottom of the view instead. Defaults to 0
+  // lines of margin,
+  "terminal_view_bottom_margin": 0,
+}

@@ -1,0 +1,5 @@
+[
+    {"keys": ["mousewheelup"], "command": "terminal_view_scroll", "args": {"forward": false}, "context": [{"key": "setting.terminal_view"}]},
+    {"keys": ["mousewheeldown"], "command": "terminal_view_scroll", "args": {"forward": true}, "context": [{"key": "setting.terminal_view"}]},
+
+]

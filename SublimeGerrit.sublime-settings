@@ -1,0 +1,11 @@
+{
+	"connection.password": "Carlito1942!",
+	"connection.timeout": 60,
+	"connection.url": "https://gitlab.brainloop.com/dox/server.git",
+	"connection.username": "jkoberg",
+	"git.default_args": "-c color.ui=false",
+	"git.executable_path": "/usr/bin/git",
+	"notifications.check_interval": 300,
+	"notifications.check_limit": 50,
+	"notifications.check_query": "status:open AND -is:draft"
+}
