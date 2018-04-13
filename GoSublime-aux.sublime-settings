@@ -21,6 +21,11 @@
 		"scripts/configure-etcd.sh",
 		"sh scripts/configure-etcd.sh"
 	],
+	"9o.hist./Users/jkoberg/server/src":
+	[
+		"ls",
+		"cd gitlab.brainloop.com"
+	],
 	"9o.hist./Users/jkoberg/server/src/brainloop/admin/ctl":
 	[
 		"ps"
@@ -43,6 +48,11 @@
 	[
 		"go build errors .",
 		"go test ."
+	],
+	"9o.hist./Users/jkoberg/server/src/brainloop/notification/health":
+	[
+		"ls",
+		"cd ../../../"
 	],
 	"9o.hist./Users/jkoberg/server/src/brainloop/notification/notification":
 	[
@@ -94,6 +104,15 @@
 	[
 		"go test ."
 	],
+	"9o.hist./Users/jkoberg/server/src/gitlab.brainloop.com":
+	[
+		"ls",
+		"cd pkg"
+	],
+	"9o.hist./Users/jkoberg/server/src/gitlab.brainloop.com/pkg":
+	[
+		"cd etcdclient"
+	],
 	"9o.hist./Users/jkoberg/server/src/gitlab.brainloop.com/pkg/blib/estream":
 	[
 		"docker kill nats-streaming-testcontainer"
@@ -104,6 +123,24 @@
 		"GoSublime r17.10.15-1 9o: type `help` for help and command documentation\n\n[ `sh go build errors .` | done: 7.615645879s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 3.137288847s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 4.039931677s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `go test -test.run=\"^Test_Receive$\"` | done: 2.088639861s ]\n  ?     gitlab.brainloop.com/pkg/blib/estream/natsstreaming [no test files]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 2.767771913s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 2.051054643s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.907321393s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.937946985s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.974592247s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.977811766s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.970858347s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 1.933368296s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.905038058s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 2.002019201s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 2.12852025s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.971641812s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.95036677s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.963047611s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 1.88874051s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.975214184s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.956577735s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.863151251s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.981690266s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.030937494s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.90060662s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 1.993678825s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.274747923s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.899216522s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.0380251s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.172629231s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.901429196s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.986918796s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.034346888s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.981051543s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.954706349s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.004046958s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.855125894s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.982929923s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.123880782s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.922007349s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.997777855s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.339928551s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.934744661s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 1.921458563s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./sender.go:16: undefined: conn\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 2.098964535s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.940341607s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.150950225s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.982249723s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.966723553s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # go test ./... -tags=integration \n[ `sh go build errors .` | done: 2.919900849s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.880109566s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.447370464s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./connection.go:30: syntax error: unexpected semicolon or newline, expecting comma or }\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.87891394s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./connection.go:30: undefined: DisconnectHandler\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.874645623s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.911141345s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.890299819s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.933674623s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./receiver.go:12: not enough arguments in call to NewConnectionFromOptions\n    have ([]Option...)\n    want (func(*nats.Conn), ...Option)\n  ./sender.go:15: not enough arguments in call to NewConnectionFromOptions\n    have ([]Option...)\n    want (func(*nats.Conn), ...Option)\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 2.395768107s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./receiver.go:21: undefined: nats in nats.Conn\n  ./sender.go:15: not enough arguments in call to NewConnectionFromOptions\n    have ([]Option...)\n    want (func(*nats.Conn), ...Option)\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # go test ./... -tags=integration \n[ `sh go build errors .` | done: 1.913825842s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./receiver.go:23: cannot use c (type *nats.Conn) as type stan.Conn in assignment:\n    *nats.Conn does not implement stan.Conn (wrong type for Close method)\n      have Close()\n      want Close() error\n  ./sender.go:15: not enough arguments in call to NewConnectionFromOptions\n    have ([]Option...)\n    want (func(*nats.Conn), ...Option)\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # go test ./... -tags=integration \n[ `sh go build errors .` | done: 2.164320825s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./sender.go:15: not enough arguments in call to NewConnectionFromOptions\n    have ([]Option...)\n    want (func(*nats.Conn), ...Option)\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 1.938793486s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./receiver.go:23: err declared and not used\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 1.961646531s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.046667255s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.904241178s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.957279265s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./sender.go:15: not enough arguments in call to NewConnectionFromOptions\n    have ([]Option...)\n    want (func(*nats.Conn), ...Option)\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 1.91484222s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./receiver.go:32: too many arguments in call to NewConnectionFromOptions\n    have (func(*nats.Conn), []Option...)\n    want (...Option)\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 1.990470128s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # go test ./... -tags=integration \n[ `sh go build errors .` | done: 1.85873307s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./receiver.go:27: undefined: nats in nats.Conn\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #  \n[ `sh go build errors .` | done: 1.960621207s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./receiver.go:29: cannot assign stan.Conn to c (type *nats.Conn) in multiple assignment\n  ./receiver.go:33: cannot use c (type *nats.Conn) as type stan.Conn in assignment:\n    *nats.Conn does not implement stan.Conn (wrong type for Close method)\n      have Close()\n      want Close() error\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.976352165s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.987846916s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.099280158s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.939811545s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.944908777s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 1.838680973s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./receiver.go:36: undefined: msgh\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #",
 		"GoSublime r17.10.15-1 9o: type `help` for help and command documentation",
 		"GoSublime r17.10.15-1 9o: type `help` for help and command documentation\n\n[ `sh go build errors .` | done: 3.285434737s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.423844022s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 3.623607106s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./container.go:51: unknown field 'PubishAllPorts' in struct literal of type container.HostConfig\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 2.510874042s ]\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] # \n[ `sh go build errors .` | done: 3.081605166s ]\n  # gitlab.brainloop.com/pkg/blib/estream/natsstreaming\n  ./container.go:44: undefined: nat in nat.PortSet\n  \n  exit status 2\n[ ~/server/src/gitlab.brainloop.com/pkg/blib/estream/natsstreaming/ ] #"
+	],
+	"9o.hist./Users/jkoberg/server/src/gitlab.brainloop.com/pkg/couchbasehelper/cbhealth":
+	[
+		"brew",
+		"brew upgrade go",
+		"echo $GOPATH",
+		"sudo rm -r /usr/local/go",
+		"rm -r /usr/local/go",
+		"export $GOROOT=\"\"",
+		"export GOROOT=\"\"",
+		"echo $GOROOT",
+		"which go",
+		"go version"
+	],
+	"9o.hist./Users/jkoberg/server/src/gitlab.brainloop.com/pkg/etcdclient":
+	[
+		"ls",
+		"tail etcd.go"
 	],
 	"9o.hist./Users/jkoberg/server/src/goplayground":
 	[
@@ -554,7 +591,7 @@
 	[
 		"protoc --go_out=plugins=micro:. hello.proto"
 	],
-	"ann": "a18.01.17-1",
-	"install_version": "r18.01.17-1",
-	"version": "r18.01.17-1"
+	"ann": "a18.03.26-1",
+	"install_version": "r18.03.26-1",
+	"version": "r18.03.26-1"
 }

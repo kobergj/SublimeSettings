@@ -4,7 +4,7 @@
         {"cmd": "gs9o_open", "args": {
             "run": [
                 "sh",
-                "go build errors ."
+                "go build errors ." //" && go test . -run NONEOFTHETESTSONDEFAULT -tags=unit"
                 // "go test -i && go vet && go test -c -o '/Users/jkoberg/TestBinaries/lastsave.test'"//" && gometalinter ."
                 ] //  && go test -tags integration -c -o '/Users/jkoberg/TestBinaries/integration.test'" // && go build . &&  go test -bench=.  && go generate
         }}

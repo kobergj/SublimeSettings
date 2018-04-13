@@ -27,7 +27,7 @@
 	"show_panel_on_build": false,
 	"spell_check": true,
 	"tab_size": 4,
-	"theme": "Seti_orig.sublime-theme",
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"

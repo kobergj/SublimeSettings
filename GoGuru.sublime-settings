@@ -1,12 +1,14 @@
 {
 	"goguru_debug": true,
     "goguru_env": {
-        "GOPATH": "$HOME/server/src:$HOME/go/bin:$HOME/server:$HOME/server/bin:$HOME/server/src:/Users/jkoberg/server"
+        // "GOPATH": "$HOME/server/src:$HOME/go/bin:$HOME/server:$HOME/server/bin:$HOME/server/src:/Users/jkoberg/server"
+        "GOPATH": "/Users/jkoberg/server",
+        // "GOROOT": "/usr/local/Cellar/go/1.10/libexec/", //1.8.3/libexec/src/encoding/json
         //"PATH": "$GOPATH/bin:$HOME/server/bin"
     },
     "goguru_use_current_package" : false,
     // "goguru_output": "buffer",
-    "goguru_scope": ["../../../../"],
+    "goguru_scope": ["$GOPATH"],
     "goguru_use_golangconfig": false
     // "goguru_jumpto_definition": true
 }

@@ -54,5 +54,8 @@
 //     { "keys": ["super+alt+right"], "command": "pass" },
 
     { "keys": ["ctrl+alt+t"], "command": "terminal_view_open" },
+    { "keys": ["ctrl+0"], "command": "focus_side_bar" },
+    { "keys": ["super+alt+down"], "command": "go_guru_goto_definition", "context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }] },
+    { "keys": ["ctrl+super+l"], "command": "sublime_linter_lint" },
 
 ]

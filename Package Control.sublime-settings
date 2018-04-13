@@ -26,7 +26,12 @@
 		"SublimeCodeIntel",
 		"SublimeGit",
 		"SublimeLinter",
+		"SublimeLinter Inline Errors",
+		"SublimeLinter-annotations",
+		"SublimeLinter-contrib-gometalinter",
+		"SublimeLinter-json",
 		"SyncedSidebarBg",
-		"TerminalView"
+		"TerminalView",
+		"View In Browser"
 	]
 }

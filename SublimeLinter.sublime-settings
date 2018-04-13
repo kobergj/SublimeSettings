@@ -1,75 +1,38 @@
+// SublimeLinter Settings - User
 {
-    "user": {
-        "debug": false,
-        "delay": 0.25,
-        "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
-        "gutter_theme_excludes": [],
-        "lint_mode": "background",
-        "linters": {
-            "gometalinter": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "lintr": {
-                "@disable": false,
-                "args": [],
-                "cache": "TRUE",
-                "excludes": [],
-                "ignore_match": [
-                    "Commented code should be removed",
-                    "lines should not be more than 80 characters",
-                    "Variable and function names should be all lowercase"
+    // Set to true to print extra information in the console.
+    "debug": true,
+    // Provide extra paths to be searched when locating system executables.
+    "paths": {
+        "linux": [],
+        "osx": [ "/Users/jkoberg/server/bin"],
+        "windows": []
+    },
+    "linters": {
+        "gometalinter": {
+                "disable": false,
+                "args": [
+                    // "--linter=vet:go tool vet -printfuncs=Infof,Debugf,Warningf,Errorf,Criticalf {path}/*.go:PATH:LINE:MESSAGE",
+                    // "--disable=dupl",
+                    // "--tests",
+                    // "--cyclo-over=15",
+                    "--config=/Users/jkoberg/temp/metaconfig.json",
+                    //"--fast"
                 ],
-                "linters": "default_linters"
+                // "excludes": [],
+                // "ignore_match": [
+                //     ".*possible formatting directive in debug call.*",
+                //     ".*exported function (Test|Bench).*should have comment.*",
+                //     ".*error return value not checked.*(Close|Infof|Debugf|Warningf|Errorf).*",
+                //     ".*possible formatting directive in Error call.*",
+                //     ".*comment on exported.*",
+                //     ".*uses unkeyed fields.*",
+                //     ".*should have comment.*",
+                //     ".*bad syntax for struct tag pair.*",
+                //     ".*bad syntax for struct tag key.*"
+                // ],
+                "executable": "/Users/jkoberg/server/bin/gometalinter",
+                "working_dir": "/Users/jkoberg/server"
             },
-            "pyflakes": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "sqlint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            }
-        },
-        "mark_style": "outline",
-        "no_column_highlights_line": false,
-        "passive_warnings": false,
-        "paths": {
-            "linux": [],
-            "osx": [
-                "/Library/Frameworks/R.framework/Versions/3.2/Resources/library"
-            ],
-            "windows": []
-        },
-        "python_paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "rc_search_limit": 3,
-        "shell_timeout": 10,
-        "show_errors_on_save": false,
-        "show_marks_in_minimap": true,
-        "syntax_map": {
-            "html (django)": "html",
-            "html (rails)": "html",
-            "html 5": "html",
-            "javascript (babel)": "javascript",
-            "magicpython": "python",
-            "php": "html",
-            "python django": "python",
-            "pythonimproved": "python",
-            "r extended": "r"
-        },
-        "tooltip_fontsize": "1rem",
-        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
-        "tooltip_theme_excludes": [],
-        "tooltips": true,
-        "warning_color": "DDB700",
-        "wrap_find": true
-    }
+    },
 }
